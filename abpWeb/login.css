@@ -11,7 +11,7 @@ body{
 
 /*criando a caixa q envolve a tela de formulario*/
 .content{
-    width: 500px;
+    width: auto
     min-height: 520px;     
     margin: 0px auto;
     margin-top: 10%;
@@ -31,13 +31,14 @@ body{
 
 h1{
     color: rgb(110, 106, 106);
+    text-shadow: gray 5px 5px 15px;
 }
 
 
 .box{    
     color: grey;
     text-align: left;
-    margin-left: 18%;
+    margin-left: 10%;
     margin-top: 15px;
     margin-bottom: 0px;
     font-size: 12pt;
@@ -46,19 +47,23 @@ h1{
 }
 
 .big_box{
-    width: 280px;
-    height: 25px;
+    width: 80%;
+    height: 30px;
     margin-top: 0;
     box-shadow: rgba(0, 0, 0, 0.137) 5px 5px 5px;
+    border-radius: 10px;
+    
 }
 
 #manterlogado{
 
 }
 #tipo_login{
-    width: 280px;
-    height: 25px;
+    color: gray;
+    width: 80%;
+    height: 35px;
     box-shadow: rgba(0, 0, 0, 0.082) 5px 5px 5px;
+    
 }
 
 .link{
